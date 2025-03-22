@@ -17,7 +17,6 @@ app.use('/api/v2', routesV2);
 
 // TODO: error handler middleware
 
-
 // start the server
 const ENV = process.env.ENV || 'development';
 const PORT = process.env.PORT || 3000;
