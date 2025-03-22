@@ -1,0 +1,8 @@
+### test endpoint
+POST http://localhost:8000/api/v1/test
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "age": 18
+}
