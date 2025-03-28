@@ -2,10 +2,12 @@
 // It is responsible for mapping HTTP requests (GET, POST, PUT, DELETE, etc) to the appropriate controller actions, ensuring that the correct function is invoked for each request.
 
 const express = require('express');
-const testController = require('../../controllers/v1/test.controller');
+const testController = require('../../controllers/v1/test.controller'); 
+
 
 const testRouter = express.Router();
 
 testRouter.post('/', testController.testPost);
+
 
 module.exports = testRouter;
